@@ -46,7 +46,7 @@
     },
     "FTEXT": {
       "description": "the footer text that will be seen in the bot message, after the final edit",
-      "required": false
+      "required": ,"Please Subscribe ❤️ @BX_Botz"
     },
     "START_TEXT": {
       "description": "the start text of the Telegram bot",
@@ -54,7 +54,7 @@
     },
     "AFTER_RECVD_CODE_TEXT": {
       "description": "the message that should be displayed before receiving the code from the user",
-      "required": false
+      "required": "false"
     },
     "BEFORE_SUCC_LOGIN": {
       "description": "a temporary message that will be displayed after receiving the code, and before the validations",
