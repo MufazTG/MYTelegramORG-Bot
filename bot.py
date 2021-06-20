@@ -76,8 +76,8 @@ def start(update, context):
                     InlineKeyboardButton('📫 Updates'', url='https://t.me/BX_Botz'),
                     InlineKeyboardButton('🤖 Support', url='https://t.me/BxSupport')
               ],[
-                    InlineKeyboardButton('🤖 Bot Lists', url='https://t.me/iZaute/8'),
-                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5')
+                    InlineKeyboardButton('👲 Github', url='https://GitHub.com/BXBotz'),
+                    InlineKeyboardButton('💡 Youtube', url='https://youtube.com/c/BXBotz')
               ]
             ]
         )
@@ -179,19 +179,16 @@ def input_tg_code(update, context):
                 parse_mode=ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                         [
-                               InlineKeyboardButton('⚠️ Disclaimer', url='https://t.me/ZauteKm/353'),
-                               InlineKeyboardButton('Source 🙄', url='https://t.me/iZaute/7')
-                       ],[
-                               InlineKeyboardButton('🤖 Bot Lists', url='https://t.me/iZaute/8'),
-                               InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-                               InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6')
-                       ],[
-                               InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url='https://youtube.com/c/ZauteKm')
-                        ]
-                    ]
-                )
-            )
+                [
+                    InlineKeyboardButton('📫 Updates'', url='https://t.me/BX_Botz'),
+                    InlineKeyboardButton('🤖 Support', url='https://t.me/BxSupport')
+              ],[
+                    InlineKeyboardButton('👲 Github', url='https://GitHub.com/BXBotz'),
+                    InlineKeyboardButton('💡 Youtube', url='https://youtube.com/c/BXBotz')
+              ]
+            ]
+        )
+    )
         else:
             LOGGER.warning("creating APP ID caused error %s", response_dv)
             aes_mesg_i.edit_text(Config.ERRED_PAGE)
