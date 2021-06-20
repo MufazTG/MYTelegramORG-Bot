@@ -46,7 +46,7 @@
     },
     "FTEXT": {
       "description": "the footer text that will be seen in the bot message, after the final edit",
-      "required": ,Please Subscribe ❤️ @BX_Botz
+      "required": false
     },
     "START_TEXT": {
       "description": "the start text of the Telegram bot",
