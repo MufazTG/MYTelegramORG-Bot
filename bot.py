@@ -77,8 +77,7 @@ def start(update, context):
                     InlineKeyboardButton('Source 🙄', url='https://t.me/iZaute/7')
               ],[
                     InlineKeyboardButton('🤖 Bot Lists', url='https://t.me/iZaute/8'),
-                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-                    InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6')
+                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5')
               ],[
                     InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url='https://youtube.com/c/ZauteKm')
                ]
