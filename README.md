@@ -2,18 +2,13 @@
 
 ~~(yet)~~ another my.telegram.org scrapper inside Telegram.
 
-- can be found on [Telegram](https://telegram.dog/useTGzKBot)
 
 ## installing
 
 ## Deploy 
 
-<b>Deploy on Heroku</b>
-<p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/LushaiTech/MyTelegramORG">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
-  </a>
-</p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MufazTG/MYTelegramORG-Bot)
+
 
 <b>Deploy in your vps</b>
 - clone the repository, locally.
