@@ -73,14 +73,12 @@ def start(update, context):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚠️ Disclaimer', url='https://t.me/ZauteKm/353'),
-                    InlineKeyboardButton('Source 🙄', url='https://t.me/iZaute/7')
+                    InlineKeyboardButton('📫 Updates'', url='https://t.me/BX_Botz'),
+                    InlineKeyboardButton('🤖 Support', url='https://t.me/BxSupport')
               ],[
                     InlineKeyboardButton('🤖 Bot Lists', url='https://t.me/iZaute/8'),
                     InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5')
-              ],[
-                    InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url='https://youtube.com/c/ZauteKm')
-               ]
+              ]
             ]
         )
     )
